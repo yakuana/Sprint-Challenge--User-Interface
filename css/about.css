@@ -117,11 +117,6 @@ nav a:hover {
     width: 750px; 
 }
 
-.about-page-container {
-    border: 1px solid orange; 
-    width: 800px;
-    margin: 0 auto;
-}
 .jumbo-about-img {
     /* border: 1px solid plum;  */
     width: 800px;
@@ -129,6 +124,64 @@ nav a:hover {
     padding-bottom: 20px; 
 }
 
+.about-page-container {
+    /* border: 1px solid orange;  */
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 20px; 
+    padding-bottom: 40px;
+}
+
+.middle-content {
+    /* border: 1px solid salmon;  */
+    height: 900px; 
+    display: flex; 
+    flex-flow: column wrap; 
+    justify-content: space-between; 
+
+}
+
+.text-container {
+    border-bottom: 1px dashed black; 
+    width: 370px; 
+    height: 430px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+}
+
+.learn-button {
+    border: 2px solid black; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 35px; 
+    width: 120px; 
+}
+
+.bottom-container {
+    /* border: 1px solid red;  */
+    width: 800px;
+    padding-bottom: 40px; 
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center; 
+
+}
+
+.bottom-content {
+    /* border: 1px solid orangered;  */
+    width: 750px; 
+}
+
+.footer-container {
+    /* border: 1px solid red;  */
+    width: 800px; 
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+}
 footer {
     width: 100%;
     background: black;
