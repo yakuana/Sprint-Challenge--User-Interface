@@ -67,7 +67,7 @@ p {
 }
 
 header {
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     height: 110px; 
     width: 800px;
     margin: 0 auto;
@@ -78,7 +78,7 @@ header {
 }
 
 header nav {
-    /* border: 1px solid hotpink;  */
+    border: 1px solid hotpink; 
     width: 580px;
     height: 50px;  
     display: flex; 
@@ -87,7 +87,7 @@ header nav {
 }
 
 header img {
-    /* border: 1px solid green;  */
+    border: 1px solid green; 
     height: 50px; 
 }
 
@@ -102,129 +102,16 @@ nav a:hover {
     text-decoration: underline; 
 }
 
-.jumbo-img {
+.about-page-container {
+    border: 1px solid orange; 
+    width: 800px;
+    margin: 0 auto;
+}
+.jumbo-about-img {
     /* border: 1px solid plum;  */
     width: 800px;
     margin: 0 auto;
     padding-bottom: 20px; 
 }
 
-.container {
-    /* border: 1px solid orange;  */
-    width: 800px;
-    margin: 0 auto;
-}
 
-#box1 {
-    background: teal; 
-}
-
-#box2 {
-    background: gold; 
-}
-
-#box3 {
-    background: cadetblue; 
-}
-
-#box4 {
-    background: coral; 
-}
-
-#box5 {
-    background: crimson; 
-}
-
-#box6 {
-    background: forestgreen; 
-}
-
-#box7 {
-    background: darkorchid; 
-}
-
-#box8 {
-    background: hotpink; 
-}
-
-#box9 {
-    background: indigo; 
-}
-
-#box10 {
-    background: dodgerblue; 
-}
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
